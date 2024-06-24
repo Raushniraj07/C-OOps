@@ -13,7 +13,6 @@ int main()
 #include <iostream>
 #include <cstring> // for strlen
 using namespace std;
-
 int main()
 {
     char s[30];
@@ -27,7 +26,6 @@ int main()
             s[i] = s[i] -32; // Equivalent to s[i] - 32
         }
     }
-
     cout << "The entered string in uppercase: " << s << endl;
     return 0;
 }
